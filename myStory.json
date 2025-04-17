@@ -219,7 +219,7 @@
             "Choices": [
                 {
                     "Text": "Go back to the center of the room",
-                    "Target": "Master Bedroom"
+                    "Target": "Hallway Bathroom"
                 }
             ]
         },
@@ -228,7 +228,7 @@
             "Choices": [
                 {
                     "Text": "Go back to the center of the room",
-                    "Target": "Master Bedroom"
+                    "Target": "Hallway Bathroom"
                 }
             ],
             "Key": "Key 5"
