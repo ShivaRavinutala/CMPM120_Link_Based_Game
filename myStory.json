@@ -1,0 +1,335 @@
+{
+    "Title": "Stuck in a Haunted House",
+    "Credits": "Template created by Adam Smith (amsmith@ucsc.edu).",
+    "InitialLocation": "Closet",
+    "Locations": {
+        "Closet": {
+            "Body": "You find yourself in a closet room stuck inside the body of a ragdoll. Your memory is iffy...",
+            "Choices": [
+                {
+                    "Text": "Open the door to the hallway",
+                    "Target": "Hallway"
+                }
+            ]
+        }, 
+        "Hallway": {
+            "Body": "There looks to be an open hallway with nothing to explore except for the rooms and open spaces to visit.",
+            "Choices": [
+                {
+                    "Text": "Go into the guest bedroom",
+                    "Target": "Guest Bedroom"
+                },
+                {
+                    "Text": "Head towards the stairway",
+                    "Target": "Stairway"
+                },
+                {
+                    "Text": "Go to the hall",
+                    "Target": "Hall"
+                },
+                {
+                    "Text": "Go to the kitchen",
+                    "Target": "Kitchen"
+                },
+                {
+                    "Text": "Door towards freedom",
+                    "Target": "Exit"
+                }
+            ]
+        },
+        "Guest Bedroom": {
+            "Body": "There is not much to see in this room except a bed, a table, and a guest bathroom.",
+            "Choices": [
+                {
+                    "Text": "Go into the guest bathroom",
+                    "Target": "Guest Bathroom"
+                },
+                {
+                    "Text": "Go back to the hallway",
+                    "Target": "Hallway"
+                }
+            ]
+        },
+        "Guest Bathroom": {
+            "Body": "There is not much to see in this room except a bed, a table, and a guest bathroom.",
+            "Choices": [
+                {
+                    "Text": "Check the bathtub",
+                    "Target": "Bathtub"
+                },
+                {
+                    "Text": "Open the cabinet doors",
+                    "Target": "Cabinet"
+                },
+                {
+                    "Text": "Go back the guest bedroom",
+                    "Target": "Guest Bedroom"
+                }
+            ]
+        },
+        "Bathtub": {
+            "Body": "You open the curtains to the bathtub. What did you expect to see in here? Just looks like an ordinary bathtub that hasn't been used in ages.",
+            "Choices": [
+                {
+                    "Text": "Back to the center of the bathroom",
+                    "Target": "Guest Bathroom"
+                }
+            ]
+        },
+        "Cabinet": {
+            "Body": "You open the doors to the cabinet. Something sparkly catches your eye. Looks like a red key labeled 'Key 2'. You keep it in your pocket.",
+            "Choices": [
+                {
+                    "Text": "Back to the center of the bathroom",
+                    "Target": "Guest Bathroom"
+                }
+            ],
+            "Key": "Key 2"
+        },
+        "Stairway": {
+            "Body": "You walked up the stairs. There are 5 choices. Your pick.",
+            "Choices": [
+                {
+                    "Text": "Back to the hallway",
+                    "Target": "Hallway"
+                },
+                {
+                    "Text": "Go into the Children's Bedroom",
+                    "Target": "Children's Bedroom"
+                },
+                {
+                    "Text": "Go into the second Children's Bedroom",
+                    "Target": "Second Children's Bedroom"
+                },
+                {
+                    "Text": "Go into the Master Bedroom",
+                    "Target": "Master Bedroom"
+                },
+                {
+                    "Text": "Walk into the Hallway Bathroom",
+                    "Target": "Hallway Bathroom"
+                }
+
+            ]
+        },
+        "Children's Bedroom": {
+            "Body": "Looks like an older kid stayed in this room. You see a bunch of posters related to old basketball players like Magic Johnson and Kareem Abdul-Jabbar. There seems to be a bed, a desk with figurines on it, and a clothes cabinet.",
+            "Choices": [
+                {
+                    "Text": "Open the cabinet doors",
+                    "Target": "Children's Bedroom Cabinet"
+                },
+                {
+                    "Text": "Take a look at the desk",
+                    "Target": "Children's Desk"
+                },
+                {
+                    "Text": "Check the bed",
+                    "Target": "Children's Bed"
+                },
+                {
+                    "Text": "Go back to the stairway",
+                    "Target": "Stairway"
+                }
+
+            ]
+        },
+        "Children's Bedroom Cabinet": {
+            "Body": "You open the cabinet doors. Looks like ordinary 80's clothes with a lot of dust on them. Wait... something shiny caught your eye. Looks like a blue key that is labeled 'Key 4'. You keep it in your pocket.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Children's Bedroom"
+                }
+            ],
+            "Key": "Key 4"
+        },
+        "Children's Desk": {
+            "Body": "You check the desk. Nothing out of the ordinary sticks out to you. Nnothing to check out I suppose. ",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Children's Bedroom"
+                }
+            ]
+        },
+        "Children's Bed": {
+            "Body": "You check the bed. Just appears to be a crummy old bed with a stiff mattress that must have worn out over the years.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Children's Bedroom"
+                }
+            ]
+        },
+        "Master Bedroom": {
+            "Body": "Looks like the parents of a family stayed in this room. You see 2 paintings that look very vintage. There seems to be a big bed and a big closet.",
+            "Choices": [
+                {
+                    "Text": "Open the closet doors",
+                    "Target": "Master Closet"
+                },
+                {
+                    "Text": "Check the bed",
+                    "Target": "Master Bed"
+                },
+                {
+                    "Text": "Go back to the stairway",
+                    "Target": "Stairway"
+                }
+            ]
+        },
+        "Master Bed": {
+            "Body": "You check the bed. Just appears to be a crummy old bed with a stiff mattress that must have worn out over the years.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Master Bedroom"
+                }
+            ]
+        },
+        "Master Closet": {
+            "Body": "You check the closet. Looks like old clothes that just have a lot of dust on them. You wasted time checking it to be honest...",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Master Bedroom"
+                }
+            ]
+        },
+        "Hallway Bathroom": {
+            "Body": "Looks to be a crusty old bathroom. Which one do you want to check: the sink or the toilet? Both look like weird choices in my opinion.",
+            "Choices": [
+                {
+                    "Text": "Check out the sink",
+                    "Target": "Hallway Bathroom Sink"
+                },
+                {
+                    "Text": "Check out the toilet",
+                    "Target": "Hallway Bathroom Toilet"
+                },
+                {
+                    "Text": "Go back to the stairway",
+                    "Target": "Stairway"
+                }
+            ]
+        },
+        "Hallway Bathroom Sink": {
+            "Body": "You check the sink. Yikes. Looks so bad you almost vomited. Then you realized you're a doll. ",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Master Bedroom"
+                }
+            ]
+        },
+        "Hallway Bathroom Toilet": {
+            "Body": "You check the toilet. Surprisingly, it was decently cleaned. Something shiny caught your eye. You go to pick it up. Looks like a green key with 'Key 5' written on it. You keep it in your pocket. ",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Master Bedroom"
+                }
+            ],
+            "Key": "Key 5"
+        },
+        "Second Children's Bedroom": {
+            "Body": "Looks like two younger kids stayed in this room. You see a bunch of kids toys laying around the room with a huge bin of just stuffed animals. What do you want to check out?",
+            "Choices": [
+                {
+                    "Text": "Open the cabinet doors",
+                    "Target": "Second Children's Bedroom Cabinet"
+                },
+                {
+                    "Text": "Take a look at the desk",
+                    "Target": "Second Children's Bedroom Desk"
+                },
+                {
+                    "Text": "Check the bunk bed",
+                    "Target": "Second Children's Bedroom Bunk Bed"
+                },
+                {
+                    "Text": "Go back to the stairway",
+                    "Target": "Stairway"
+                }
+
+            ]
+        },
+        "Second Children's Bedroom Cabinet": {
+            "Body": "You open the cabinet doors. Looks like old kid clothes. Nothing special to check in here.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Second Children's Bedroom"
+                }
+            ]
+        },
+        "Second Children's Bedroom Desk": {
+            "Body": "You check the desk. Ooooooo something shiny caught your eye. Looks like a yellow key with 'Key 3' inscribed on it. You keep it in your pocket.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Second Children's Bedroom"
+                }
+            ],
+            "Key": "Key 3"
+        },
+        "Second Children's Bedroom Bunk Bed": {
+            "Body": "You check the bunk bed. Looks like a bunch of kids just jumped on it. The mattress is worn out. Nothing else to see here buddy.",
+            "Choices": [
+                {
+                    "Text": "Go back to the center of the room",
+                    "Target": "Second Children's Bedroom"
+                }
+            ]
+        },
+        "Hall": {
+            "Body": "You see a sofa, a fancy looking coffee table, and the oldest CRT TV you have ever seen with a Nintendo NES system plugged in. Something shiny caught your eye. Looks like a magenta key with 'Key 1' inscribed on it.",
+            "Choices": [
+                {
+                    "Text": "Go back to the hallway",
+                    "Target": "Hallway"
+                }
+            ],
+            "Key": "Key 1"
+        },
+        "Kitchen": {
+            "Body": "You enter the kitchen and there is a piece of paper just lying on the kitchen counter. Do you want to read it? ",
+            "Choices": [
+                {
+                    "Text": "Read the paper",
+                    "Target": "Read the paper"
+                },
+                {
+                    "Text": "Go back to the hallway",
+                    "Target": "Hallway"
+                }
+            ]
+        },
+        "Read the paper": {
+            "Body": "The paper says the following: \n Days ago, you entered into this house with your friends. A ghoul came along and introduced himself as 'John'. That was not his real name. His name was something ancient. Even I don't remember. But what ended up happening was that your friends ran but you ended up just having a deep conversation with the ghoul. He wanted to give you a piece of candy, but he accidentally gave you a pill that turns you into a doll. Out of fear, he left and just left you to rot in the closet. How about that? At least it looks like you have a way out.",
+            "Choices": [
+                {
+                    "Text": "Go back to the hallway",
+                    "Target": "Hallway"
+                }
+            ]
+        },
+        "Exit": {
+            "Unlocked":
+            {
+                "Body": "All the keys fit into the many locks on the door. You are finally free. Now that you are free from the encapsulating body of a doll, you decide to enjoy your freedom by going to eat some real candy, hoping it does not turn out to be the pill from earlier."
+            },
+            "Locked":
+            {
+                "Body": "The door is locked. Looks like a bunch of keyholes that need to be unlocked...",
+                "Choices": [
+                    {
+                        "Text": "Go back to the hallway",
+                        "Target": "Hallway"
+                    }
+                ]
+            }
+        }
+    }
+}
